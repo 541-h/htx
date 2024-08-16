@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      .nr3 img{width: 400px;
+      height: 250px;
+    margin-left: 70px;
+  display: block;}
+   .nr4{margin-left: 290px;}
+   .nr3{align-items: center;
+  display: flex;}
+      .nro{ display: flex;
+        align-items: center;
+      margin-top: 20px;}
+      .nrt{
+      margin-left: 5px;
+    font-size: larger;
+  padding: 5px;}
+      .doto {
+  width: 10px; /* 圆点的宽度 */
+  height: 10px; /* 圆点的高度 */
+  background-color: gray; /* 圆点的背景颜色 */
+  border-radius: 50%; /* 使圆点为圆形 */
+}
+      button {
+        background-color: rgb(234, 157, 14);;
+        padding: 7px 15px; /* 内边距，上下15px，左右30px */
+        font-size: 20px; 
+        border: none; 
+        cursor: pointer; 
+      }
+      button:hover{background-color: rgb(177, 115, 2);;}
+      .container {
+        color: azure;
+        display: flex;
+        justify-content: space-between;
+        background-image: url("屏幕截图 2024-08-15 173655.png");
+      }
+      .hsy .content {
+        font-size: x-large;
+        color: white;
+        flex-grow: 1;
+        flex-basis: 0;
+      }
+      .ljx {
+        color: yellow;
+        display: flex;
+        justify-content: center;
+        background-image: url("屏幕截图 2024-08-15 173655.png");
+      }
+      .button-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0px;
+        background-color: rgb(234, 157, 14);
+      }
+      .dots-container {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.title {
+  margin-left: 5px;
+  font-size: larger;
+}
+        
+ .bio-info-container {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.dot {
+  width: 10px; /* 圆点的宽度 */
+  height: 10px; /* 圆点的高度 */
+  background-color: gray; /* 圆点的背景颜色 */
+  border-radius: 50%; /* 使圆点为圆形 */
+}
+
+.bio-info-container img {
+  width: 400px;
+  height: 250px;
+  margin-left: 70px;
+  display: block;
+}
+
+.bio-info {
+  margin-left: 300px;
+}
+   </style>
+  </head>
+  <body>
+    <div class="ljx">
+      <h1>何同学的个人网站</h1>
+    </div>
+    <div class="container">
+      <p class="content">长风破浪会有时</p>
+      <p class="hsy">直挂云帆济沧海</p>
+    </div>
+   
+  </script><div class="button-container">
+    <button data-url="http://www.homepage.com" onclick="redirectToPage(this)">我的家乡</button>
+    <button data-url="http://www.growthpage.com" onclick="redirectToPage(this)">我的成长</button>
+    <button data-url="http://www.hobbiespage.com" onclick="redirectToPage(this)">我的爱好</button>
+    <button data-url="http://www.messagepage.com" onclick="redirectToPage(this)">给我留言</button>
+  </div>
+  <script type="text/javascript">
+    function redirectToPage(button) {
+      var targetUrl = button.getAttribute('data-url');
+      window.location.href = targetUrl;
+    }</script> 
+    <div class="dots-container">
+      <div class="dot"></div>
+      <div class="title">我的简介</div>
+    </div>
+     <hr>
+     <div class="bio-info-container">
+      <img src="微信图片_20240815234037.jpg">
+      <div class="bio-info">
+        <p>姓名：何**</p>
+        <p>星座：狮子座</p>
+        <p>家乡：重庆市</p>
+        <p>年龄：19</p>
+        <p>学历：本科</p>
+        <p>国家：中国</p>
+        <p>座右铭：仰天大笑出门去，我辈岂是蓬蒿人</p>
+      </div>
+     </div>
+      <hr>
+      <div class="nro">
+        <div class="doto"></div>
+        <div class="nrt">励志文章</div>
+      </div>
+      <div class="nr3">
+        <img src="微信图片_20240816150840.jpg">
+        <div class="nr4">
+   <p>“你所浪费的今天，是昨天死去的人奢望的明天；你所厌恶的现在，是未来的你回不去的曾经。” —— 未知</p>
+   <p>“成功的秘诀在于坚持自己的目标和信念。” —— 马克·吐温</p>
+   <p>“不要等待机会，而要创造机会。” —— 乔治·伯纳德·肖</p>
+<p>“成功不是将来才有的，而是从决定去做的那一刻起，持续累积而成。” —— 佚名</p>  
+<p>“你的时间有限，不要浪费时间去过别人的生活。” —— 史蒂夫·乔布斯</p>
+<p>“只有那些敢于追求梦想的人，才能实现梦想。” —— 莱夫·柯尔布</p>
+        </div>
+      </div>   
+</body>
+</html>
