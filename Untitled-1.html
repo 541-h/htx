@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>我的家乡</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: orange;
+        position: relative;
+        overflow: auto;
+      }
+      .container,.container2 {
+        display: flex;
+        justify-content: space-between;
+      }
+      .nr1,.nr2,.nr3,.nr4 {
+        display: flex;
+        align-items: center;
+        width: 650px;
+        height: 450px;
+      }
+      .nr1 img,.nr2 img,.nr3 img,.nr4 img {
+        width: 400px;
+        height: 300px;
+        margin-top: 50px;
+      }
+      .nr1 p,
+      .nr2 p,
+      .nr3 p,
+      .nr4 p {
+        flex: 1; /* 这将使文本块占据剩余的空间 */
+        margin-left: 20px; /* 增加与图片之间的空间 */
+        margin-top: 50px;
+        font-size: larger;
+      }
+      .vertical-line {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 2px;
+        background-color: white;
+        transform: translateX(-50%);
+      }
+      .horizontal-line {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        height: 2px;
+        background-color: white;
+        transform: translateY(-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nr1">
+        <img src="微信图片_20240817011332.jpg" />
+        <p>
+          晚霞，那是天空最温柔的诗篇，是日落时分大自然献给世界的一幅绝美画卷。
+          当太阳缓缓沉入地平线，天边开始上演一场色彩的盛宴。橙红、金黄、紫罗兰，
+          还有淡淡的蓝，它们交织在一起，像是调色盘上的奇迹，每一抹颜色都承载着一天即将结束的静谧与安详。
+        </p>
+      </div>
+      <div class="nr3">
+        <img src="微信图片_20240817011356.jpg" />
+        <p>
+          在冬日的晨曦中，当第一缕阳光穿透云层，洒在银装素裹的大地上，整个世界仿佛被施了魔法，变得如梦似幻,
+          它们覆盖了每一寸土地，每一枝树梢，将世界装扮成一个晶莹剔透的童话王国，静谧而又神秘。
+        </p>
+      </div>
+    </div>
+    <div class="container2">
+      <div class="nr2">
+        <img src="微信图片_20240817011345.jpg" />
+        <p>
+          秋天，这个季节仿佛一位深情的画家，用最细腻的画笔在大自然的画卷上涂抹出一幅幅令人心醉的景象。当第一缕凉风轻轻拂过
+          ，树叶便开始了它们一年中最华丽的变装舞会。绿意盎然的外衣渐渐换上了金黄、橙红、深紫，宛如天边的晚霞，绚烂而又短暂。
+        </p>
+      </div>
+      <div class="nr4">
+        <img src="微信图片_20240817122635.jpg" />
+        <p>
+          古老的石桥在灯光的照耀下显得格外庄重而神秘。它静静地横跨于河面上，仿佛一位沉默的历史见证者，见证了这座城市的兴衰
+          变迁和人们的喜怒哀乐。站在桥边的人们或许也在思考着自己的人生旅程，期待着未来的美好与希望。
+        </p>
+      </div>
+    </div>
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+  </body>
+</html>
